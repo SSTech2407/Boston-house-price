@@ -2,7 +2,7 @@
   A simple machine learning web application built using **Flask** that predicts house prices in Boston based on input features. The model is trained using the Boston Housing Dataset.
 ---
 #📌Features
-- Linear Regression model trained on 14 input features
+- Linear Regression model trained on 13 input features
 - Flask web app for user interaction
 - Clean HTML + CSS interface
 - Predicts house prices based on input data
@@ -34,7 +34,7 @@ project/
 
 ---
 
-## Input Features (User Enters 14 Values)
+## Input Features (User Enters 13 Values)
 
 Each input corresponds to a real estate feature:
 
