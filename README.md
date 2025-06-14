@@ -6,7 +6,6 @@
 - Flask web app for user interaction
 - Clean HTML + CSS interface
 - Predicts house prices based on input data
-- Ready for deployment on platforms like Render
 
 ---
 
