@@ -22,12 +22,15 @@
 ## Project Structure
 
 project/
-├── app.py # Flask application
-├── model.pkl # Trained ML model (Linear Regression)
-├── requirements.txt # Python dependencies
+├── app.py                  # Flask backend
+├── model.pkl               # Trained ML model
+├── BostonHousing.csv       # Dataset (optional)
+├── requirements.txt        # Python dependencies
 ├── templates/
-│ └── index.html # Frontend HTML form
-├── BostonHousing.csv # Dataset used (optional for training)
+│   ├── index.html          # Input form page
+│   └── result.html         # Output result page
+└── README.md               # Project details
+
 
 ---
 
@@ -48,7 +51,6 @@ Each input corresponds to a real estate feature:
 11. PTRATIO – pupil-teacher ratio
 12. B – diversity index
 13. LSTAT – % lower income
-14. Price
 
 ---
 
@@ -67,12 +69,28 @@ Each input corresponds to a real estate feature:
 4. Open in browser.
    Go to: http://127.0.0.1:5000
 
-Example Output,
-    Predicted House Price: $25,346.45
+---
 
+Example Output,
+Predicted House Price: $25,346.45
+
+---
+
+🧠 Model Info
+- Algorithm: Linear Regression
+- Library: scikit-learn
+- Model trained using 13 features
+- Saved using pickle as model.pkl
+
+---
+
+✨ Final Version
+This is the final cleaned and updated version of the project, completed on 14 June 2025, with all features working and design polished.
+
+---
 🧑‍💻Author
-   Developed by Sparsh Sharma
-    sparshsharma2407@gmail.com
+Developed by Sparsh Sharma
+GitHub: SSTech2407
 
  📸 Screenshot
  First page. 
